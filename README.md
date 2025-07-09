@@ -18,7 +18,8 @@ Kakao Mobility의 미래 길찾기 API를 활용하여, 서울시 모든 동-차
 
 ## 📂 DB 스키마
 - `travel_time(origin_id, destination_id, origin_name, destination_name, departure_time, duration)`
-- 
+- `origin(id, district, name, longitude, latitude)`
+- `destination(id, name, longitude, latitude, num_of_vehicles)`
 
 ## 💡 목적
 이 데이터 파이프라인은 강화학습 모델 학습을 위한 데이터 셋을 마련하기 위해 구축했습니다.
