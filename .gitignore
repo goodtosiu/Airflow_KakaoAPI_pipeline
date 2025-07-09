@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Airflow logs
+logs/
+*.log
+
+# .env file (API 키 등 민감 정보)
+.env
+
+# Docker volumes / tmp
+tmp/
+
+# 상태 추적 파일
+include/origin_id.txt
+include/destination_id.txt
+
+# OS-specific
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
